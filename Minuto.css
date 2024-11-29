@@ -1,0 +1,510 @@
+/* CSS Document */
+
+header{
+	background-color: white;
+	width: 100%;
+	align-items: center;
+}
+.encabezado{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 40% 40% 20%;
+	align-items: center;
+	justify-content: center;
+	background-color: #29A7DF;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+}
+
+.encabezado img{
+	width: 50%;
+	margin-left: 20%;
+	}
+
+.otros{
+	position: relative; left: 35%;
+	margin-top: 20px;
+	display: flex;
+	gap: 20px;
+	}
+
+.otros a{
+	color: white;
+	gap: 20px;
+}
+
+#Buscador {
+  width: 80%;
+  color: #02489E;
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+  background-size: 20px;
+  border: transparent;
+  background-color: white;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 10px 10px 30px;
+  outline: none;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:1px;
+	width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.menu a{
+padding-top: 3px;
+border: 1px solid #02489E;
+border-width: 2px;
+width: 24%;
+text-align: center;
+height: 30px;
+background: linear-gradient(#29ABE2, #02488E);
+font-family: sans-serif;
+box-shadow: 2px 2px 10px;
+font-size: 1.2em;
+text-decoration: none;
+color: white;
+}
+
+.contenedor{
+	width: 100%;
+	background: linear-gradient(#FFFFFF, #29ABE2);
+	height: 480px;
+	margin: 0 auto;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 55%;
+      height: 430px;
+            margin: auto;
+  }
+
+.carousel-inner .item h3 {
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.carousel-inner .item p {
+    border: 1px solid #02489E;
+    border-width: 2px;
+    width: 28%;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: auto;
+	margin-right: auto;
+    background: linear-gradient(#29ABE2, #02488E);
+}
+
+
+main{
+	width: 100%;
+	height:910px;
+	background-color: #F3FDFD;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu a{
+border: 1px solid #02489E;
+border-width: 2px;
+width: 24%;
+height: 30px;
+background: linear-gradient(#29ABE2, #02488E);
+font-family: sans-serif;
+box-shadow: 2px 2px 10px;
+text-decoration: none;
+color: white;
+margin-left: auto;
+	margin-right: auto;
+}
+
+.lugares{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:24%;
+}
+.lugares a{
+	font-family: sans-serif;
+	color: #02488E;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px grey;
+	position: relative;
+	top:80px;
+}
+
+.primera{
+	padding-top: 0px;
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	gap: 1%;
+	border: 1px solid white;
+}
+
+.primera div{
+	background: linear-gradient(#29ABE2, #02488E);
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	box-shadow: 2px 2px 3px grey;
+	display: grid;
+	border: 1px solid #D7D7D7;
+	height: 50%;
+	}
+
+.primera div img{
+	width: 100px;
+	height: 130px;
+	border: 2px solid #02489E;
+	box-shadow: 2px 2px 10px;
+	justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.primera h2{
+	font-family: sans-serif;
+	text-shadow: 2px 2px 10px black;
+	color: white;
+	margin-top: -100px;
+	margin-left: 120px;
+}
+
+.primera h5{
+	font-family: sans-serif;
+	text-shadow: 2px 2px 10px black;
+	color: #F3FDFD;
+	margin-left: 7px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+		
+.primera p{
+	width: 80%;
+height: 250px;
+margin-top: px;
+margin-left: 10px;
+margin-right: 15px;
+text-align: justify;
+font-family: sans-serif;
+}
+.gabriel, .diego, .juan {
+    flex-grow: 1;
+}
+
+.video{
+
+	display: flex;
+	justify-content: center;
+}
+
+.video video{border: 3px solid #02489E;
+	box-shadow: 2px 2px 10px;
+}
+
+.recorrido{display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #02488E;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+footer img{width: 50px;
+	margin-left: 25px;
+
+}
+
+footer h5{
+	display: flex;
+	font-family: sans-serif;
+	color: #F3FDFD;
+	font-size: 11px;
+}
+
+
+
+
+
+.regresar img{
+	scale:50%;
+	filter: drop-shadow(0px 0px 12px #02488E);
+	position: absolute;
+	margin-left: 90%;
+	margin-top: -7%
+
+}
+
+
+.bloques {
+	
+	display: flex;
+	justify-content: center;
+	gap:1px;
+	width: 100%;
+	position: relative;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.bloques a{
+
+padding-top: 3px;
+border: 1px solid #02489E;
+border-width: 2px;
+width: 24%;
+text-align: center;
+height: 30px;
+background: linear-gradient(#29ABE2, #02488E);
+font-family: sans-serif;
+box-shadow: 2px 2px 10px;
+font-size: 1.2em;
+text-decoration: none;
+color: white;
+}
+
+.lista label{
+	margin-top: 450px;
+}
+.imagenes div img{
+	position: absolute;
+	margin-top: -500px;
+	width: 60%;
+	}
+
+.imagenes div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:1px;
+	}
+
+#A401:checked ~ .imagenes .A402, #A401:checked ~ .imagenes .A403, #A401:checked ~ .imagenes .A404, 
+#A401:checked ~ .imagenes .A405, #A401:checked ~ .imagenes .A406{display: none;}
+
+#A402:checked ~ .imagenes .A401, #A402:checked ~ .imagenes .A403, #A402:checked ~ .imagenes .A404, 
+#A402:checked ~ .imagenes .A405, #A402:checked ~ .imagenes .A406{display: none;}
+
+#A403:checked ~ .imagenes .A401, #A403:checked ~ .imagenes .A402, #A403:checked ~ .imagenes .A404, 
+#A403:checked ~ .imagenes .A405, #A403:checked ~ .imagenes .A406{display: none;}
+
+#A404:checked ~ .imagenes .A401, #A404:checked ~ .imagenes .A402, #A404:checked ~ .imagenes .A403, 
+#A404:checked ~ .imagenes .A405, #A404:checked ~ .imagenes .A406{display: none;}
+
+#A405:checked ~ .imagenes .A401, #A405:checked ~ .imagenes .A402, #A405:checked ~ .imagenes .A403, 
+#A405:checked ~ .imagenes .A404, #A405:checked ~ .imagenes .A406{display: none;}
+
+#A406:checked ~ .imagenes .A401, #A406:checked ~ .imagenes .A402, #A406:checked ~ .imagenes .A403, 
+#A406:checked ~ .imagenes .A404, #A406:checked ~ .imagenes .A405{display: none;}
+
+
+.bloque1 p{
+		margin: auto;
+	    display: flex;
+        justify-content: center;
+		font-family: sans-serif;
+		color: #02488E;
+		font-size: 3em;
+		position: relative;
+		
+}
+
+.piso p{font-family: sans-serif;
+		color: #02488E;
+		font-size: 2em;
+		position: absolute;
+		margin-left: 85%;
+		margin-top: -10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Aquí todo el responsive*/
+
+@media screen and (max-width: 600px) {
+	
+	.encabezado{
+		grid-template-columns: 100%;
+	}
+	.encabezado img{
+		width: 60%;
+		align-content: center;
+	}
+	
+	.otros {
+    left: 0;
+    margin-top:0;
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+	
+	#Buscador{
+		margin-left: 10%;
+	}
+
+
+
+
+	.menu ul {
+		display: block;
+       
+	}
+	
+	.menu{
+	justify-content: flex-end;
+    width: 100%;
+	margin-left: 0;
+    margin-right:0;
+	position: relative;
+}
+
+		
+	main{
+		width: 100%;
+		height: 1480px;
+	}
+
+
+	.contenedor{
+		width: 100%;
+		height: 400px;
+		background: linear-gradient(#29ABE2, #FFFFFF);
+	}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+}
+
+
+.carousel-inner .item p {
+    border: 1px solid #02489E;
+    border-width: 2px;
+    width: 60%;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: auto;
+	margin-right: auto;
+    background: linear-gradient(#29ABE2, #02488E);
+}
+
+.carousel-indicators {
+	margin-bottom: 300px;
+}
+
+.primera{
+		display: block;
+}
+
+.primera div {
+    background: linear-gradient(#02488E, #29ABE2);
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px grey;
+    display: grid;
+    border: 1px solid #D7D7D7;
+    height: 350px;
+}
+.primera h2 {
+    font-size: 55px;
+}
+.primera p {
+	margin-left: 50px;
+	color: white;
+}
+
+.regresar img{
+	scale: 0.5;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -7%;
+    filter: drop-shadow(0px 0px 2px #29ABE2);
+}
+
+.video{
+
+	display: flex;
+	justify-content: center;
+}
+
+.piso p{
+        margin: auto;
+	    display: flex;
+        justify-content: center;
+	    font-family: sans-serif;
+		color: #02488E;
+		font-size: 2em;
+		position: relative;
+		
+}
+
+
+.recorrido{display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	font-size: 1.2em;
+}
+
+.imagenes div img{
+	position: absolute;
+	margin-top: -500px;
+	width: 100%;
+	}
+
+
+
+footer {
+	
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+footer h5{font-family: sans-serif;
+	color: #F3FDFD;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+}
+
